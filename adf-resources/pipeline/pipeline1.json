@@ -6,9 +6,18 @@
 				"name": "name",
 				"type": "AppendVariable",
 				"dependsOn": [],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Name",
+					"value": "frank"
+				}
 			}
 		],
+		"variables": {
+			"Name": {
+				"type": "Array"
+			}
+		},
 		"annotations": []
 	}
 }
